@@ -3,7 +3,14 @@
 </p>
 
 <h1 align="center">🎨 Online Art Gallery — Frontend</h1>
+
 <p align="center">React (Vite) frontend for the Online Art Gallery platform</p>
+
+---
+
+## 🔗 Full Project Repository
+
+👉 https://github.com/shaikreshmashaik2007-afk/FSAD_ONLINE_ART_GALLERY_FRONTEND_AND_BACKEND.git
 
 ---
 
@@ -18,41 +25,42 @@
 
 ## 🌐 Live Demo
 
-- **Frontend (Vercel):** 👉 https://online-art-gallery-frontend.vercel.app/
-
+* **Frontend (Vercel):** 👉 https://online-art-gallery-frontend.vercel.app/
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Framework** | React (Vite) |
-| **HTTP Client** | Axios |
-| **Routing** | React Router DOM |
-| **Notifications** | React Toastify |
-| **Payment** | Razorpay (JS SDK) |
-| **Deployment** | Vercel |
+| Layer             | Technology        |
+| ----------------- | ----------------- |
+| **Framework**     | React (Vite)      |
+| **HTTP Client**   | Axios             |
+| **Routing**       | React Router DOM  |
+| **Notifications** | React Toastify    |
+| **Payment**       | Razorpay (JS SDK) |
+| **Deployment**    | Vercel            |
 
 ---
 
 ## ✨ Features
 
-- 👤 **User Signup / Login with JWT Authentication**
-- 🖼 **Browse Artworks** — explore the full gallery
-- 🔒 **Protected Routes** — must be logged in to view or buy artwork
-- 🛒 **Buy Now** — secure payments via Razorpay
-- 👨‍💼 **Admin Panel** — add, edit, and delete artworks
-- 📱 **Fully Responsive UI**
+* 👤 **User Signup / Login with JWT Authentication**
+* 🖼 **Browse Artworks** — explore the full gallery
+* 🔒 **Protected Routes** — must be logged in to view or buy artwork
+* 🛒 **Buy Now** — secure payments via Razorpay
+* 👨‍💼 **Admin Panel** — add, edit, and delete artworks
+* 📱 **Fully Responsive UI**
 
 ---
 
 ## 🖼️ Screenshots
- 
+
 ### Home Page
+
 > ![Home Page](public/home.png)
- 
+
 ### Artworks Page
+
 > ![Artworks Page](public/Artworks.png)
 
 ---
@@ -61,8 +69,8 @@
 
 ### Prerequisites
 
-- Node.js v18+
-- npm or yarn
+* Node.js v18+
+* npm or yarn
 
 ### Steps
 
@@ -70,19 +78,18 @@
 # 1. Clone the repository
 git clone https://github.com/shaikreshmashaik2007-afk/Online-Art-Gallery-Frontend.git
 
-
+# 2. Navigate to project
+cd Online-Art-Gallery-Frontend
 
 # 3. Install dependencies
 npm install
 
 # 4. Create a .env file
 cp .env.example .env
-# Then edit .env with your values (see below)
 
 # 5. Start the dev server
 npm run dev
 ```
-
 
 ---
 
@@ -96,8 +103,8 @@ OnlineArtGallery-Frontend/
 ├── src/
 │   ├── components/
 │   ├── pages/
-│   ├── services/        # Axios API calls
-│   ├── context/         # Auth context / JWT
+│   ├── services/
+│   ├── context/
 │   ├── App.jsx
 │   └── main.jsx
 ├── .env
@@ -110,10 +117,7 @@ OnlineArtGallery-Frontend/
 ## 🚀 Deploying to Vercel
 
 1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your repo and set the **Root Directory** to `OnlineArtGallery-Frontend`
-
+2. Go to https://vercel.com → **New Project**
+3. Import your repo
+4. Set **Root Directory** to `OnlineArtGallery-Frontend`
 5. Deploy ✅
-
----
-
