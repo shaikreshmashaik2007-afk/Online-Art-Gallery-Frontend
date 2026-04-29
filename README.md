@@ -121,3 +121,10 @@ OnlineArtGallery-Frontend/
 3. Import your repo
 4. Set **Root Directory** to `OnlineArtGallery-Frontend`
 5. Deploy ✅
+
+
+
+
+## 🔗 Related
+
+- 🎨 [Backend README](https://github.com/shaikreshmashaik2007-afk/Online-Art-Gallery-BackEnd/edit/main/README.md)
