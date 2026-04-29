@@ -18,7 +18,7 @@
 
 ## 🌐 Live Demo
 
-- **Frontend (Vercel):** 👉 https://onlineartgallery.slayercore.me/
+- **Frontend (Vercel):** 👉 https://online-art-gallery-frontend.vercel.app/
 
 
 ---
@@ -68,10 +68,9 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/shaikreshmashaik2007-afk/FSAD_ONLINE_ART_GALLERY_FRONTEND_AND_BACKEND.git
+git clone https://github.com/shaikreshmashaik2007-afk/Online-Art-Gallery-Frontend.git
 
-# 2. Navigate to the frontend folder
-cd FSAD_ONLINE_ART_GALLERY_FRONTEND_AND_BACKEND/OnlineArtGallery-Frontend
+
 
 # 3. Install dependencies
 npm install
@@ -84,16 +83,6 @@ cp .env.example .env
 npm run dev
 ```
 
-### Environment Variables
-
-Create a `.env` file in the frontend root:
-
-```env
-VITE_API_BASE_URL=https://fsad-online-art-gallery-frontend-and.onrender.com
-VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxx
-```
-
-> For local backend testing, replace `VITE_API_BASE_URL` with `http://localhost:8080`
 
 ---
 
@@ -123,16 +112,8 @@ OnlineArtGallery-Frontend/
 1. Push your code to GitHub
 2. Go to [vercel.com](https://vercel.com) → **New Project**
 3. Import your repo and set the **Root Directory** to `OnlineArtGallery-Frontend`
-4. Add environment variables in Vercel dashboard:
-   ```
-   VITE_API_BASE_URL=https://fsad-online-art-gallery-frontend-and.onrender.com
-   VITE_RAZORPAY_KEY_ID=your_razorpay_key
-   ```
+
 5. Deploy ✅
 
 ---
 
-## 🔗 Related
-
-- 📦 [Backend README](../OnlineArtGallery-Backend/README.md)
-- 🌐 [Live Site](https://onlineartgallery.slayercore.me/)
