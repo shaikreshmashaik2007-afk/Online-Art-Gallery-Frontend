@@ -48,10 +48,10 @@
 ---
 
 ## 🖼️ Screenshots
-
+ 
 ### Home Page
 > ![Home Page](public/home.png)
-
+ 
 ### Artworks Page
 > ![Artworks Page](public/Artworks.png)
 
