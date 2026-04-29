@@ -127,4 +127,4 @@ OnlineArtGallery-Frontend/
 
 ## 🔗 Related
 
-- 🎨 [Backend README](https://github.com/shaikreshmashaik2007-afk/Online-Art-Gallery-BackEnd/edit/main/README.md)
+- 🎨 [Backend README](https://github.com/shaikreshmashaik2007-afk/Online-Art-Gallery-BackEnd/blob/main/README.md)
